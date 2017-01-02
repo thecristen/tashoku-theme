@@ -1,0 +1,37 @@
+$system-sans-serif: -apple-system, BlinkMacSystemFont, /* MacOS and iOS */
+  'Avenir Next', avenir, /* MacOS and iOS */
+  'Segoe UI', /* Windows */
+  'Lucida Grande', /* Older MacOS */
+  'Helvetica Neue', helvetica, /* Older MacOS */
+  'Fira Sans', /* Firefox OS */
+  Roboto, Noto, /* Google stuff */
+  'Droid Sans', /* Old Google stuff */
+  Cantarell, Oxygen, Ubuntu, /* Linux stuff */
+  'Franklin Gothic Medium', 'Century Gothic', /* Windows stuff */
+  'Liberation Sans', /* Linux */
+  sans-serif, /* Everything else */
+  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; /* Emojis */
+
+$system-monospace: Menlo, Monaco, /* MacOS */
+  'Segoe UI Mono, Lucida Console', /* Windows */
+  'Fira Mono', /* Firefox OS */
+  'Roboto Mono', 'Noto Mono', /* Google stuff */
+  'Droid Sans Mono', /* Old Google stuff */
+  'Ubuntu Mono', 'DejaVu Sans Mono', 'Liberation Mono', /* Linux */
+  'Courier New', /* MacOS and Windows */
+  monospace, /* Everything else */
+  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; /* Emojis */
+
+/*
+  References:
+
+  https://webkit.org/blog/3709/using-the-system-font-in-web-content/
+  https://en.wikipedia.org/wiki/Avenir_(typeface)
+  https://www.google.com/design/spec/style/typography.html#typography-typeface
+  https://core.trac.wordpress.org/ticket/36753#comment:85
+  http://font.ubuntu.com/
+  https://mozilla.github.io/Fira/
+  https://fedorahosted.org/liberation-fonts/
+  https://bitsofco.de/the-new-system-font-stack/
+
+*/

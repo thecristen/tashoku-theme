@@ -1,0 +1,174 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 1.25em auto;
+  padding: 1em;
+  max-width: 60em;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+     -moz-font-feature-settings: "kern" 1;
+       -o-font-feature-settings: "kern" 1;
+          font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
+
+/**
+ * Basic styling
+ */
+main {
+
+  background-color: $background-color;
+
+  padding: 1.25em;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: $spacing-unit;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $base-font-weight;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+  color: $punch;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($punch, 25%);
+  }
+
+  &:hover, &:focus {
+    color: $navy;
+    background-color: $gold;
+  }
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: $navy;
+  border-left: 4px solid $teal;
+  padding-left: $spacing-unit / 2;
+  font-size: 1.1em;
+  letter-spacing: -1px;
+  font-style: italic;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/**
+ * Code formatting
+ */
+kbd, samp, pre, code {
+  font-family: $mono-font-family;
+  font-size: .95em;
+  background-color: $white;
+  background-color: transparentize($white,0.15);
+}
+pre code {
+  color: $navy;
+}
+
+code {
+  color: $punch;
+  padding: .0625em .3em;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/**
+ * Icons
+ */
+.icon > svg {
+  display: inline-block;
+  vertical-align: middle;
+
+  path {
+    fill: $text-color;
+  }
+}

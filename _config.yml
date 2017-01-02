@@ -1,0 +1,22 @@
+title: Tashoku Jekyll Theme
+author: Author Name
+email: your-email@domain.com
+description: "A minimal Jekyll theme with a flair for color."
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+permalink: pretty
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+gems:
+  - normalize-scss
